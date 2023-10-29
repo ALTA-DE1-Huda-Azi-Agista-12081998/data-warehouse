@@ -1,0 +1,6 @@
+Perbedaan antara Data Warehouse dan Data Lake:
+
+Struktur Data: Data Warehouse biasanya menyimpan data dalam format yang telah diolah dan terstruktur. Data Lake, di sisi lain, dapat menyimpan data dalam format mentah atau semi-terstruktur seperti file, dokumen, gambar, audio, dan data mentah lainnya.
+Proses Data: Data Warehouse menyimpan data yang telah diintegrasikan dan dioptimalkan untuk analisis bisnis. Data Lake adalah tempat penyimpanan data mentah yang memungkinkan proses ekstraksi, transformasi, dan pemuatan (ETL) untuk analisis selanjutnya.
+Skema Data: Data Warehouse memiliki skema yang sudah ditentukan sebelumnya untuk mendukung pertanyaan bisnis tertentu. Data Lake biasanya memiliki skema yang lebih fleksibel atau tidak ada skema sama sekali.
+Tujuan: Data Warehouse lebih cocok untuk analisis bisnis yang telah direncanakan sebelumnya. Data Lake cocok untuk eksplorasi dan analisis data yang belum diproses sebelumnya.

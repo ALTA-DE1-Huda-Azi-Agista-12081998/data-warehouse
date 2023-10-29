@@ -1,0 +1,7 @@
+Perbedaan antara teknologi database untuk Data Warehouse (OLAP) dan teknologi database konvensional (OLTP):
+
+Tujuan Utama: Database OLAP (Online Analytical Processing) dirancang untuk melayani analisis data dan laporan bisnis. Database OLTP (Online Transaction Processing) digunakan untuk mendukung operasi sehari-hari, seperti penjualan, pemesanan, dan transaksi.
+Skema: Database OLAP menggunakan skema bintang atau snowflake yang dioptimalkan untuk pengambilan data multidimensi. Database OLTP menggunakan skema entitas-relasi yang menggambarkan hubungan antar entitas bisnis.
+Kinerja Query: Database OLAP dapat menangani query kompleks yang melibatkan agregasi dan analisis besar-besaran. Database OLTP lebih fokus pada kinerja transaksi singkat.
+Jumlah Data: Database OLAP biasanya menyimpan volume data yang lebih besar daripada database OLTP, karena fokus pada penyimpanan data sejarah dan agregat.
+Tingkat Konsistensi: Database OLAP dapat mendukung konsistensi yang lebih longgar karena fokus pada analisis, sedangkan database OLTP memerlukan konsistensi yang ketat untuk memastikan transaksi yang benar.

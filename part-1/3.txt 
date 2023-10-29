@@ -1,0 +1,7 @@
+Teknologi yang biasanya digunakan untuk Data Warehouse meliputi:
+
+Relational Database Management System (RDBMS) seperti Oracle, Microsoft SQL Server, atau PostgreSQL.
+Data Warehousing Solutions seperti Amazon Redshift, Google BigQuery, dan Snowflake.
+ETL (Extract, Transform, Load) Tools seperti Apache NiFi, Talend, dan Informatica.
+Data Integration Tools seperti Apache Kafka untuk streaming data.
+Data Visualization Tools seperti Tableau, Power BI, atau QlikView.

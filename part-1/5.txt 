@@ -1,0 +1,5 @@
+Perbedaan antara access method "heap" dan "columnar" pada Citus:
+
+Heap Access Method: Ini adalah metode penyimpanan data default dalam Citus. Data disimpan dalam format heap mirip dengan tabel reguler PostgreSQL. Ini lebih cocok untuk data yang tidak memerlukan struktur khusus atau ketika Anda ingin menjaga fleksibilitas dalam pengolahan data. Namun, tidak optimal untuk kueri analitis besar.
+
+Columnar Access Method: Ini adalah metode penyimpanan kolom yang dioptimalkan untuk kueri analitis. Data disusun dalam kolom, yang memungkinkan kompresi lebih baik, pemrosesan kueri lebih cepat, dan penghematan ruang penyimpanan. Ini cocok untuk data yang cenderung terstruktur dalam kolom, seperti data waktu series atau data analitis. Pada Citus, ini memungkinkan pengolahan kueri dengan cepat pada rentang data yang besar.
