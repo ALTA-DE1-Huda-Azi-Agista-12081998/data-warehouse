@@ -1,0 +1,29 @@
+1. Perbedaan antara Replication dan Sharding:
+
+Replication:
+
+Mereplikasi seluruh basis data ke beberapa server atau node.
+Setiap node memiliki salinan lengkap data.
+Biasanya digunakan untuk meningkatkan ketersediaan dan keamanan.
+Cocok untuk aplikasi yang lebih memerlukan redundansi dan toleransi kesalahan.
+Sharding:
+
+Membagi basis data menjadi bagian-bagian yang disebut shard.
+Setiap shard hanya menyimpan sebagian data.
+Menggunakan pendekatan horizontal untuk memperbesar kapasitas dan meningkatkan kinerja.
+Cocok untuk aplikasi dengan jumlah data yang sangat besar dan kebutuhan kinerja tinggi.
+
+
+
+5. Kapan Harus Menggunakan Replication:
+
+Disarankan menggunakan replication ketika:
+Ketersediaan tinggi sangat penting.
+Aplikasi memerlukan failover otomatis.
+Tidak perlu untuk memperbesar kapasitas data secara horizontal.
+Kapan Harus Menggunakan Sharding:
+
+6. Disarankan menggunakan sharding ketika:
+Data sangat besar dan tidak dapat ditangani oleh satu server.
+Kinerja baca/tulis perlu ditingkatkan secara horizontal.
+Skala secara horizontal adalah kebutuhan utama untuk aplikasi.

@@ -1,0 +1,15 @@
+1. Instalasi Docker:
+2. Buat Berkas Docker Compose (docker-compose.yml):
+3. Jalankan Docker Compose:
+    Buka terminal atau command prompt di direktori yang berisi berkas docker-compose.yml.
+    docker-compose up -d
+
+4. Akses Kontainer Citus:
+    Setelah kontainer berjalan, Anda dapat mengakses kontainer Citus untuk menjalankan perintah. Gunakan perintah berikut:
+    docker-compose exec coordinator psql -U postgres -d postgres
+5. Inisialisasi Ekstensi Citus: 
+    Setelah masuk ke dalam shell PostgreSQL, jalankan perintah SQL berikut untuk menginisialisasi ekstensi Citus:
+    CREATE EXTENSION citus;
+6. Buat Tabel Terdistribusi:
+    Setelah Citus diinisialisasi, Anda dapat membuat tabel terdistribusi. Contohnya:
+    CREATE TABLE distributed_table (id serial PRIMARY KEY, name text);

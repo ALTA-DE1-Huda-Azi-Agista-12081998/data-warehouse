@@ -1,0 +1,5 @@
+Kesimpulan:
+
+- Tabel biasa umumnya lebih baik untuk transaksi dan pembaruan data yang sering terjadi.
+- Tabel columnar cocok untuk analisis data besar-besaran dan query yang melibatkan aggregasi.
+- Perbedaan ukuran dapat mencerminkan efisiensi penyimpanan data pada tabel columnar untuk jenis query tertentu.
